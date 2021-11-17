@@ -1,0 +1,138 @@
+/* LAYOUT CSS */
+header {
+    background: #bbbbbb;
+    padding:  20px 0;
+}
+
+
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto 0 auto;
+}
+
+.nav-list {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+.nav-item {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.nav-item a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    color:#c78c19;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background: url(/bg.jpg);
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+/* MAIN HOME */
+
+#banner {    
+    width: 100%;
+}
+
+.principal {
+    background: #cccccc;
+    padding: 30px;
+}
+
+p {
+    text-align: center;
+    margin: 16px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 16px; 
+}
+
+#missao {
+ font-size: 20px;   
+}
+
+p strong {
+    font-weight: bold;
+}
+
+em strong {
+    color: #ff0000;
+    font-weight: strong;
+    font-weight: bold;
+}
+
+.beneficios {
+    background: #ffffff;
+    padding: 20px;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.servicos-list {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.servicos-itens {
+    font-style: italic;
+    margin-bottom: 16px;
+}
+
+.img-beneficios {
+    width: 50%;
+}
+
+
+
+/*
+
+hexadecimal = 0123456789ABCEDF
+
+# _ _   _ _   _ _
+
+0 = Ausência de cor
+
+F = Máximo de cor
+
+#000000 = Black
+
+#FFFFFF = White
+
+#FF0000 = Red
+
+rgb 0, 1, 2, 3, ... 255
+
+0 = Ausência de cor
+
+255 = Máximo de cor
+
+rgb(255, 255, 255) = White
+
+rgb(0, 0, 255) = Greem
+
+*/
