@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/contato.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Produtos | Barbearia Alura</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="caixa">
+            <h1>
+                <img src="/logo.png" alt="">
+            </h1>
+            <nav class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="/index.html">Home</a></li>
+                    <li class="nav-item"><a href="/produtos.html">Produtos</a></li>
+                    <li class="nav-item"><a href="/contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form>
+            <label for="nomesobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@seuprovedor.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="50" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+            <fieldset>
+                <legend>Como deseja receber nosso contato?</legend>
+                <label for="radio-email">
+                    <input type="radio" name="contato" value="email" id="radio-email">Email
+                </label>
+
+                <label for="radio-telefone">
+                    <input type="radio" name="contato" value="email" id="radio-telefone">Telefone
+                </label>
+
+                <label for="radio-whatsapp">
+                    <input type="radio" name="contato" value="email" id="radio-whatsapp" checked>Whatsapp
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Qual período deseja ser atendido?</legend>
+                <select name="" id="">
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                </select>
+            </fieldset>
+
+            <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por
+                email?</label>
+
+            <input type="submit" value="Enviar" class="enviar">
+        </form>
+
+        <div class="table-horario">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda à Sexta</td>
+                        <td>08h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Sábado</td>
+                        <td>08h ~ 22h</td>
+                    </tr>
+                    <tr>
+                        <td>Domingo e Feriado</td>
+                        <td>08h ~ 16h</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2"> Barbearia Alura</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        </div>
+    </main>
+
+    <footer>
+        <img src="/logo-branco.png" alt="Logo Barbearia Alura">
+        <p class="copyright">&copy; Copyright Barbearia Alura</p>
+    </footer>
+</body>
+
+</html>
